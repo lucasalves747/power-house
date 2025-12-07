@@ -29,9 +29,11 @@ export const Navbar: React.FC = () => {
         </div>
         
         <div className="hidden md:block">
-          <Button onClick={scrollToCheckout} variant="primary" className="py-2 px-6 text-sm !shadow-none">
-            Garantir Vaga
-          </Button>
+          <a href="https://plataformamiami.com/ph-checkout">
+        <Button fullWidth variant="primary">
+          QUERO MINHA VAGA
+        </Button>
+        </a>
         </div>
       </nav>
     </div>
