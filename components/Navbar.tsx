@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
       }`}>
         <div className="flex items-center gap-4">
            {/* Placeholder for small logo if needed, or simple text brand */}
-           <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6924bc728e95931a56e7af3d.png" alt="Logo" className="h-8 w-auto object-contain brightness-200" />
+           <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6938351b10381826274a643d.png" alt="Logo" className="h-20 w-auto object-contain brightness-200 rotate-90" />
         </div>
         
         <div className="hidden md:block">
