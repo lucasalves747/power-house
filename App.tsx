@@ -64,9 +64,9 @@ const App: React.FC = () => {
         <div className="relative z-10 container mx-auto px-6 flex flex-col items-center text-center max-w-5xl">
           <div className="mb-12 animate-float">
             <img 
-              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6939cbe358db0bac66414662.png" 
+              src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/693af904517c3a084b5d8cf1.png" 
               alt="Power House Miami" 
-              className="h-[400px] md:max-w-md rotate-90 drop-shadow-[0_0_50px_rgba(120,57,238,0.3)]"
+              className="h-[300px] md:max-w-md  drop-shadow-[0_0_50px_rgba(120,57,238,0.3)]"
             />
           </div>
           
@@ -351,7 +351,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="py-12 border-t border-white/5 bg-[#08070e] text-center relative z-10">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-           <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/6939cbe358db0bac66414662.png" alt="Logo" className="h-[200px]   transition-all rotate-90" />
+           <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/693af904517c3a084b5d8cf1.png" alt="Logo" className="h-[200px]   transition-all" />
            <p className="text-gray-600 text-xs">© 2025 Power House Miami. All rights reserved.</p>
         </div>
       </footer>
