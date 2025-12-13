@@ -314,7 +314,7 @@ const App: React.FC = () => {
 
 
       {/* Video Section */}
-<Section glass className="hidden sm:block">
+<Section glass className="hidden ">
   <div className="text-center mb-12">
     <h2 className="text-4xl font-bold">
       Assista <span className="text-cyan-400">na prática</span>
