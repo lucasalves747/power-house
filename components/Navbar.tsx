@@ -17,7 +17,7 @@ export const Navbar: React.FC = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 flex justify-center pt-6 px-4">
+    <div className="hidden sm:fixed top-0 left-0 right-0 z-50 flex justify-center pt-6 px-4">
       <nav className={`transition-all duration-500 rounded-full px-6 py-3 flex justify-between items-center w-full max-w-5xl ${
         isScrolled 
           ? 'bg-[#0B0A14]/70 backdrop-blur-xl border border-white/10 shadow-2xl shadow-purple-900/10' 
