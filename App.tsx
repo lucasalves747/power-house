@@ -59,7 +59,7 @@ const App: React.FC = () => {
       <div className="fixed bottom-0 left-0 right-0 z-50 p-6 bg-[#0B0A14]/90 backdrop-blur-xl border-t border-white/10 md:hidden">
         <a href="https://plataformamiami.com/ph-checkout">
           <Button fullWidth variant="primary">
-            QUERO MINHA VAGA
+           ENTRE NA LISTA DE ESPERA
           </Button>
         </a>
       </div>
@@ -78,7 +78,7 @@ const App: React.FC = () => {
 
           <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-md px-6 py-2 rounded-full border border-white/10 mb-10 shadow-lg shadow-purple-900/20">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
-            <span className="font-medium tracking-wide text-sm text-gray-300">12 a 14 de Dezembro 2025</span>
+            <span className="font-medium tracking-wide text-sm text-gray-300">Entre na lista de espera</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
@@ -95,7 +95,7 @@ const App: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-6">
             <a href="https://plataformamiami.com/ph-checkout">
               <Button fullWidth variant="primary">
-                QUERO MINHA VAGA
+                ENTRE NA LISTA DE ESPERA
               </Button>
             </a>
             <Button variant="secondary" className="text-lg px-12 py-4">
@@ -379,7 +379,7 @@ const App: React.FC = () => {
           <div className="flex flex-col items-center gap-6">
             <a href="https://plataformamiami.com/ph-checkout">
               <Button fullWidth variant="primary">
-                GARANTIR MINHA VAGA
+                ENTRE NA LISTA DE ESPERA
               </Button>
             </a>
             <div className="flex items-center gap-2 text-xs text-gray-500 uppercase tracking-widest">
