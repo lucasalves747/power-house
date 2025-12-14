@@ -11,6 +11,7 @@ import {
   Lock,
   ArrowRight
 } from 'lucide-react';
+import {RegistrationForm} from "./components/RegistrationForm"
 
 import video1 from '@/assets/IMG_3761.MOV'
 import video2 from '@/assets/IMG_3795.MOV'
@@ -59,7 +60,7 @@ const App: React.FC = () => {
       <div className="fixed bottom-0 left-0 right-0 z-50 p-6 bg-[#0B0A14]/90 backdrop-blur-xl border-t border-white/10 md:hidden">
         <a href="https://plataformamiami.com/ph-checkout">
           <Button fullWidth variant="primary">
-           ENTRE NA LISTA DE ESPERA
+            ENTRE NA LISTA DE ESPERA
           </Button>
         </a>
       </div>
@@ -314,40 +315,43 @@ const App: React.FC = () => {
 
 
       {/* Video Section */}
-<Section glass className="hidden ">
-  <div className="text-center mb-12">
-    <h2 className="text-4xl font-bold">
-      Assista <span className="text-cyan-400">na prática</span>
-    </h2>
-    <p className="text-gray-400 mt-2">
-      Veja os depoimentos dos nossos alunos.
-    </p>
-  </div>
-
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-    {[video1, video2, video3, video4, video5].map((src, i) => (
-      <div
-        key={i}
-        className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 hover:bg-white/10 transition-all p-2 backdrop-blur"
-      >
-        <div className="aspect-video w-full rounded-xl overflow-hidden">
-          <video
-            src={src}
-            controls
-            playsInline
-            muted
-            preload="metadata"
-            className="w-full h-full rounded-xl bg-black"
-          />
+      <Section glass className="hidden ">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold">
+            Assista <span className="text-cyan-400">na prática</span>
+          </h2>
+          <p className="text-gray-400 mt-2">
+            Veja os depoimentos dos nossos alunos.
+          </p>
         </div>
-      </div>
-    ))}
-  </div>
-</Section>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {[video1, video2, video3, video4, video5].map((src, i) => (
+            <div
+              key={i}
+              className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 hover:bg-white/10 transition-all p-2 backdrop-blur"
+            >
+              <div className="aspect-video w-full rounded-xl overflow-hidden">
+                <video
+                  src={src}
+                  controls
+                  playsInline
+                  muted
+                  preload="metadata"
+                  className="w-full h-full rounded-xl bg-black"
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+      
+        <RegistrationForm/>
+   
 
 
 
-      {/* Scarcity / CTA Section */}
+      {/* pagamento 2000 Scarcity / CTA Section 
       <Section id="scarcity" className="py-32">
         <div className="max-w-4xl mx-auto text-center relative z-10">
 
@@ -388,6 +392,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </Section>
+      */}
 
       {/* Footer */}
       <footer className="py-12 border-t border-white/5 bg-[#08070e] text-center relative z-10">
