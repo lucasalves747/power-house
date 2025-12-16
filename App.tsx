@@ -56,14 +56,15 @@ const App: React.FC = () => {
 
       <Navbar />
 
-      {/* Sticky Bottom CTA for Mobile */}
+      {/* Sticky Bottom CTA for Mobile 
       <div className="fixed bottom-0 left-0 right-0 z-50 p-6 bg-[#0B0A14]/90 backdrop-blur-xl border-t border-white/10 md:hidden">
-        <a href="https://plataformamiami.com/ph-checkout">
+        <a href="https://link.salee.ai/widget/form/JU05huAqXFi7ZQLpCtsF">
           <Button fullWidth variant="primary">
             ENTRE NA LISTA DE ESPERA
           </Button>
         </a>
       </div>
+      */}
 
       {/* Hero Section */}
       <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-20">
@@ -94,14 +95,12 @@ const App: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6">
-            <a href="https://plataformamiami.com/ph-checkout">
+            <a href="https://link.salee.ai/widget/form/JU05huAqXFi7ZQLpCtsF">
               <Button fullWidth variant="primary">
                 ENTRE NA LISTA DE ESPERA
               </Button>
             </a>
-            <Button variant="secondary" className="text-lg px-12 py-4">
-              Saber Mais
-            </Button>
+            
           </div>
         </div>
       </div>
