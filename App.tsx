@@ -47,7 +47,8 @@ const App: React.FC = () => {
     <div className="min-h-screen font-sans text-gray-100 selection:bg-fuchsia-500 selection:text-white pb-24 relative">
 
       {/* Global Background Blobs */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10">
+      <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10 max-w-full">
+
         <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-purple-900/30 rounded-full blur-[120px] animate-blob"></div>
         <div className="absolute top-[20%] right-[-10%] w-[40%] h-[40%] bg-blue-900/20 rounded-full blur-[120px] animate-blob animation-delay-2000"></div>
         <div className="absolute bottom-[-10%] left-[20%] w-[60%] h-[60%] bg-fuchsia-900/20 rounded-full blur-[120px] animate-blob animation-delay-4000"></div>
@@ -106,7 +107,7 @@ const App: React.FC = () => {
 
       {/* The Hook / Concept */}
       <Section id="concept">
-        <div className="grid md:grid-cols-2 gap-24 items-center">
+        <div className="grid md:grid-cols-2 gap-12 md:gap-24 items-center">
           <div className="space-y-12">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold leading-tight text-white mb-6">
@@ -139,7 +140,7 @@ const App: React.FC = () => {
               className="relative rounded-[2.5rem] shadow-2xl z-10 grayscale-[20%] group-hover:grayscale-0 transition-all duration-700 border border-white/10 w-full object-cover aspect-[4/5]"
             />
             {/* Floating Badge */}
-            <div className="absolute -bottom-10 -left-10 z-20 glass-panel p-6 rounded-2xl animate-float hidden md:block">
+            <div className="absolute bottom-0 left-0 translate-x-[-40%] translate-y-[40%] hidden md:block">
               <div className="flex items-center gap-4">
                 <div className="bg-green-500/20 p-3 rounded-full">
                   <CheckCircle2 className="text-green-400 w-6 h-6" />
@@ -395,7 +396,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="py-12 border-t border-white/5 bg-[#08070e] text-center relative z-10">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
-          <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/693af904517c3a084b5d8cf1.png" alt="Logo" className="h-[200px]   transition-all" />
+          <img src="https://storage.googleapis.com/msgsndr/dkM0aNpySiIFf3uusFTa/media/693af904517c3a084b5d8cf1.png" alt="Logo" className="h-[200px] max-w-full" />
           <p className="text-gray-600 text-xs">© 2025 Power House Miami. All rights reserved.</p>
         </div>
       </footer>
