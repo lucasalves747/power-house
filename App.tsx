@@ -90,7 +90,7 @@ const App: React.FC = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-gray-400 font-light max-w-2xl leading-relaxed mb-12">
-            Imersão profunda para criar seu método, livro e produto ao lado de mentores especialistas.
+            Imersão exclusiva para criar seu método, livro e palestra ao lado de mentores e especialistas.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6">
@@ -219,7 +219,7 @@ const App: React.FC = () => {
             Engine Tech
           </span>
           <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight">
-            Aceleração <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Impossível</span>
+            Aceleração do <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Tempo</span>
           </h2>
           <p className="text-gray-400 text-lg leading-relaxed">
             Nossa metodologia proprietária combina engenharia de narrativa, inteligência artificial e pressão criativa positiva.
