@@ -13,11 +13,10 @@ import {
 } from 'lucide-react';
 import {RegistrationForm} from "./components/RegistrationForm"
 
-import video1 from '@/assets/IMG_3761.MOV'
-import video2 from '@/assets/IMG_3795.MOV'
-import video3 from '@/assets/IMG_3799.MOV'
-import video4 from '@/assets/IMG_3801.MOV'
-import video5 from '@/assets/IMG_3818.MOV'
+import video1 from '@/assets/IMG_7611.MOV'
+import video2 from '@/assets/IMG_7613.MOV'
+import video3 from '@/assets/IMG_7842.MOV'
+
 
 const App: React.FC = () => {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
@@ -314,7 +313,7 @@ const App: React.FC = () => {
 
 
       {/* Video Section */}
-      <Section glass className="hidden ">
+      <Section glass className=" ">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold">
             Assista <span className="text-cyan-400">na prática</span>
@@ -325,7 +324,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[video1, video2, video3, video4, video5].map((src, i) => (
+          {[video1, video2, video3].map((src, i) => (
             <div
               key={i}
               className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 hover:bg-white/10 transition-all p-2 backdrop-blur"
