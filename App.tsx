@@ -13,9 +13,7 @@ import {
 } from 'lucide-react';
 import {RegistrationForm} from "./components/RegistrationForm"
 
-import video1 from '@/assets/IMG_7611.MOV'
-import video2 from '@/assets/IMG_7613.MOV'
-import video3 from '@/assets/IMG_7842.MOV'
+
 
 
 const App: React.FC = () => {
@@ -313,37 +311,42 @@ const App: React.FC = () => {
       </Section>
 
 
+    
       {/* Video Section */}
-      <Section glass className=" ">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold">
-            Assista <span className="text-cyan-400">na prática</span>
-          </h2>
-          <p className="text-gray-400 mt-2">
-            Veja os depoimentos dos nossos alunos.
-          </p>
-        </div>
+<Section glass>
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold">
+      Assista <span className="text-cyan-400">na prática</span>
+    </h2>
+    <p className="text-gray-400 mt-2">
+      Veja os depoimentos dos nossos alunos.
+    </p>
+  </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[video1, video2, video3].map((src, i) => (
-            <div
-              key={i}
-              className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 hover:bg-white/10 transition-all p-2 backdrop-blur"
-            >
-              <div className="aspect-video w-full rounded-xl overflow-hidden">
-                <video
-                  src={src}
-                  controls
-                  playsInline
-                  muted
-                  preload="metadata"
-                  className="w-full h-full rounded-xl bg-black"
-                />
-              </div>
-            </div>
-          ))}
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {[
+      'https://www.youtube.com/embed/62NUsZrb9bM',
+      'https://www.youtube.com/embed/Fmp4XwDx3YE',
+      'https://www.youtube.com/embed/p4njYo3W3_c',
+    ].map((src, i) => (
+      <div
+        key={i}
+        className="rounded-2xl overflow-hidden border border-white/10 bg-white/5 hover:bg-white/10 transition-all p-2 backdrop-blur"
+      >
+        <div className="aspect-video w-full rounded-xl overflow-hidden">
+          <iframe
+            src={src}
+            title={`Depoimento ${i + 1}`}
+            className="w-full h-full rounded-xl"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
         </div>
-      </Section>
+      </div>
+    ))}
+  </div>
+</Section>
+      
       
         <RegistrationForm/>
    
