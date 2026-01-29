@@ -80,7 +80,7 @@ const App: React.FC = () => {
 
           <div className="inline-flex items-center gap-3 bg-white/5 backdrop-blur-md px-6 py-2 rounded-full border border-white/10 mb-10 shadow-lg shadow-purple-900/20">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse"></div>
-            <span className="font-medium tracking-wide text-sm text-gray-300">Entre na lista de espera</span>
+            <span className="font-medium tracking-wide text-sm text-gray-300">Inscreva-se já</span>
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
@@ -97,7 +97,7 @@ const App: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-6">
             <a href="https://link.salee.ai/widget/form/JU05huAqXFi7ZQLpCtsF">
               <Button fullWidth variant="primary">
-                ENTRE NA LISTA DE ESPERA
+                Inscreva-se já
               </Button>
             </a>
             
