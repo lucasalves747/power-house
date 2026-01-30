@@ -84,7 +84,7 @@ const App: React.FC = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
             Construa seu legado <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-violet-400 to-fuchsia-400 text-glow">
-              em apenas 3 dias
+              nos dias 6,7,8,9
             </span>
           </h1>
 
